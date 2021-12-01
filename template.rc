@@ -1,0 +1,147 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ID_form1 DIALOGEX 200, 100, 352, 272
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GaitAnalysis"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",ID_pic1,"Static",SS_OWNERDRAW,12,18,330,102
+    LTEXT           "步态相位图",IDC_STATIC,6,6,48,12,SS_CENTERIMAGE
+    CONTROL         "1号腿",ID_chkLeg1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,150,36,12
+    CONTROL         "2号腿",ID_chkLeg2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,150,36,12
+    CONTROL         "3号腿",ID_chkLeg3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,156,150,36,12
+    CONTROL         "4号腿",ID_chkLeg4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,204,150,36,12
+    CONTROL         "5号腿",ID_chkLeg5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,150,36,12
+    CONTROL         "6号腿",ID_chkLeg6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,300,150,36,12
+    PUSHBUTTON      "保存",ID_cmdSave,300,126,42,18
+    PUSHBUTTON      "刷新",ID_cmdRefresh,252,126,42,18
+    EDITTEXT        ID_txtInitState1,60,168,36,12,ES_AUTOHSCROLL
+    EDITTEXT        ID_txtInitState2,108,168,36,12,ES_AUTOHSCROLL
+    EDITTEXT        ID_txtInitState3,156,168,36,12,ES_AUTOHSCROLL
+    EDITTEXT        ID_txtInitState4,204,168,36,12,ES_AUTOHSCROLL
+    EDITTEXT        ID_txtInitState5,252,168,36,12,ES_AUTOHSCROLL
+    EDITTEXT        ID_txtInitState6,300,168,36,12,ES_AUTOHSCROLL
+    LTEXT           "选择剩余腿",IDC_STATIC,12,150,42,12,SS_CENTERIMAGE
+    LTEXT           "起始状态",IDC_STATIC,18,168,36,12,SS_CENTERIMAGE
+    LTEXT           "状态切换帧",IDC_STATIC,12,186,42,12,SS_CENTERIMAGE
+    EDITTEXT        ID_txtFrames1,60,186,36,78,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        ID_txtFrames2,108,186,36,78,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        ID_txtFrames3,156,186,36,78,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        ID_txtFrames4,204,186,36,78,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        ID_txtFrames5,252,186,36,78,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        ID_txtFrames6,300,186,36,78,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    ID_form1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "XpStyles.exe.manifest"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "main.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+ID_form1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
