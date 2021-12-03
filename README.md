@@ -1,4 +1,6 @@
-# Introduction To GitAnalyse
+# ![ICO](./main.ico)Introduction To GitAnalyse
+
+<img src=".\GaitAnalysis.jpg" alt="GaitAnalyse Interface" style="zoom:50%;" />
 
 ## 1. Function Discription
 
